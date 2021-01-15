@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<style type="text/css">
+
+		.qs1 {
+			background-color: #5c979c;
+			width: 1200px;
+			height: 100px;
+			margin-right: auto;
+			margin-left: auto;
+			font-family: arial;
+		}
+
+		.img1  {
+			width: 1200px;
+			height: 600px;
+			background-color: red;
+			margin-right: auto;
+			margin-left: auto;
+		}
+
+		.ans11 {
+			width: 1200px;
+			height: 50px;
+			background-color: #377075
+		}
+		.ans12 {
+			width: 1200px;
+			height: 50px;
+			background-color: #38b0ba
+		}
+		.ans13 {
+			width: 1200px;
+			height: 50px;
+			background-color: #82a8ab
+		}
+
+
+
+		.qs2 {
+			background-color: #82ab83;
+			width: 1200px;
+			height: 100px;
+			margin-right: auto;
+			margin-left: auto;
+			display: none;
+			font-family: arial;
+		}
+
+		.img2  {
+			width: 1200px;
+			height: 400px;
+			background-color: #329435;
+			margin-right: auto;
+			margin-left: auto;
+		}
+
+		.ans21 {
+			width: 1200px;
+			height: 50px;
+			background-color: #329435
+		}
+		.ans22 {
+			width: 1200px;
+			height: 50px;
+			background-color: #6cc447
+		}
+		.ans23 {
+			width: 1200px;
+			height: 50px;
+			background-color: #9fcf8a
+		}
+
+
+
+		.qs3 {
+			background-color: #ffffff;
+			width: 1200px;
+			height: 100px;
+			margin-right: auto;
+			margin-left: auto;
+			display: none;
+			font-family: arial;
+		}
+
+		.img3  {
+			width: 1200px;
+			height: 400px;
+			background-color: red;
+			margin-right: auto;
+			margin-left: auto;
+		}
+
+		.ans31 {
+			width: 1200px;
+			height: 50px;
+			background-color: #ffffff
+		}
+		.ans32 {
+			width: 1200px;
+			height: 50px;
+			background-color: #023ad4
+		}
+		.ans33 {
+			width: 1200px;
+			height: 50px;
+			background-color: #ff0000
+		}
+
+
+
+		.qs4 {
+			background-color: #ffffff;
+			width: 1200px;
+			height: 100px;
+			margin-right: auto;
+			margin-left: auto;
+			display: none;
+			font-family: arial;
+		}
+
+		.img4  {
+			width: 1200px;
+			height: 400px;
+			background-color: red;
+			margin-right: auto;
+			margin-left: auto;
+		}
+
+		.ans41 {
+			width: 1200px;
+			height: 50px;
+			background-color: #ffffff
+		}
+		.ans42 {
+			width: 1200px;
+			height: 50px;
+			background-color: pink
+		}
+		.ans43 {
+			width: 1200px;
+			height: 50px;
+			background-color: purple
+		}
+
+	</style>
+</head>
+
+
+
+
+<body>
+	<!--1 djghjc-->
+	<div class="qs1">
+		<h1>Столица Кубы?</h1>
+		<div class="img1">
+			<img src="https://www.onetwotrip.com/ru/blog/wp-content/uploads/2017/11/cuba.jpg" class="img1">
+		</div>
+		<div class="ans11">
+			Бразилия
+		</div>
+		<div class="ans12">
+			Гавана
+		</div>
+		<div class="ans13">
+			Йемен
+		</div>
+	</div>
+
+	<!--2 djghjc-->
+	<div class="qs2">
+		<h1>Где находится река Конго?</h1>
+
+		<div class="img2">
+			<img src="https://lh3.googleusercontent.com/proxy/LfF229QTbEaCybc_07OpnNZGcswbDFbCiRPHrRm7NjPWIWDO5QQHLq8Gra1SGFzyrjO6s5P6GFiBmXWLctXo_7IIBCsc" class="img2">
+		</div>
+
+		<div class="ans21">
+			В Африке
+		</div>
+		<div class="ans22">
+			В Австралии
+		</div>
+		<div class="ans23">
+			В Китае
+		</div>
+
+	</div>
+
+	<!--3 djghjc-->
+	<div class="qs3">
+		<h1>Сколько лет Путину?</h1>
+
+		<div class="img1">
+			<img src="https://www.tourdom.ru/upload/iblock/578/578f12c88f952ae3de632f27aea6e62e.jpeg" class="img1">
+		</div>
+
+		<div class="ans31">
+			55 лет
+		</div>
+		<div class="ans32">
+			47 лет
+		</div>
+		<div class="ans33">
+			68 лет
+		</div>
+	</div>
+
+		<!--4 djghjc-->
+	<div class="qs4">
+		<h1>Ура! Ты закончил тест</h1>
+
+		<div class="img4">
+			<img src="https://www.povarenok.ru/data/cache/2019feb/13/17/2487341_65154-710x550.jpg" class="img4">
+		</div>
+
+		<div class="ans41">
+			<h1>Вернуться на начало теста?</h1>
+		</div>
+
+	</div>
+
+
+
+<script type="text/javascript">
+
+
+
+	document.querySelector('.ans11').onclick=function(){
+		alert('Неправильный ответ')
+	}
+	document.querySelector('.ans12').onclick=function(){
+		alert('Правильно')
+		document.querySelector('.qs1').style.display="none";
+		document.querySelector('.qs2').style.display="block";
+		document.querySelector('.img1').src='img2';
+	}
+	document.querySelector('.ans13').onclick=function(){
+		alert('Неправильный ответ')
+	}
+
+
+
+	document.querySelector('.ans21').onclick=function(){
+		alert('Правильный ответ')
+		document.querySelector('.qs2').style.display="none";
+		document.querySelector('.qs3').style.display="block";
+	}
+	document.querySelector('.ans22').onclick=function(){
+		alert('Неправильный ответ')
+	}
+	document.querySelector('.ans33').onclick=function(){
+		alert('Неправильный ответ')
+	}
+
+
+	document.querySelector('.ans31').onclick=function(){
+		alert('Неправильный ответ')
+	}
+	document.querySelector('.ans32').onclick=function(){
+		alert('Неправильный ответ')
+	}
+	document.querySelector('.ans33').onclick=function(){
+		alert('Правильный ответ')
+		document.querySelector('.qs3').style.display="none";
+		document.querySelector('.qs4').style.display="block";
+	}
+
+
+	document.querySelector('.ans41').onclick=function(){
+		alert('Вернуться на начало?')
+		document.querySelector('.qs4').style.display="none";
+		document.querySelector('.qs1').style.display="block";
+	}
+
+
+
+</script>
+</body>
+</html>
